@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Survival Battle</title>
+        <script src="javascript.js"> </script>
+        <style>
+            body{
+    font-size: 20px;
+}
+
+h3{
+    word-spacing: 60px;
+    margin-left: 490px;
+    color: #339966;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    color:   #00aaff;
+}
+input[type=text]{
+    height: 25px;
+    width: 500px;
+}
+button{
+    font-size: 15px;
+    margin-left: 490px;
+    background-color:#8cb3d9;
+
+
+}
+h2{
+    margin-left:490px;
+    color: red;
+}  
+h4{
+    color:#e600ac;
+    margin-left: 250px;
+     font-size: 30px;
+} 
+p{
+    margin-left: 490px;
+    color: #992600;
+    font-style: italic;
+    font-size: 20px;
+
+}    
+</style>
+    </head>
+    <body>
+       
+        <h4>Bored?Play a Game</h4>
+        <h1>Let's check who will Survive</h1>
+        <h3>1.Human       2.Cockroach      3.NuclearBomb  </h3><br>
+        <p>Click to generate a random number 1:</p>
+        <button onclick="f1 = func1(); return false;">Click</button>
+        <input type="integer" name="value1" id="value1"  placeholder="Number 1"></input><br><br><br>
+        <p>Click to generate a random number 2:</p>
+        <button onclick="f2= func2(); return false;">Click</button>
+        <input type="integer" name="value2" id="value2"  placeholder="Number 2"></input><br><br><br>
+        
+        <button onclick='document.getElementById("id1").innerHTML = win(f1,f2); return false;'>Let's Begin</button><br>
+        <h2 id="id2"></h2>
+        <h2 id="id1"></h2>
+
+    </body>
+    
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Palindrome and Anagram </title>
+        <script src="javascript.js"> </script>
+        <style>
+body{
+    font-size: 20px;
+    margin-left: 500px;
+ }
+
+h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color:#b30000;
+}
+input[type=text]{
+    height: 25px;
+    width: 400px;
+}
+p{
+    color: red;
+    margin-left:250px; 
+}
+button {
+    size: 50px;
+    margin-left:290px;
+    background-color: #00e6e6;
+}
+label{
+    color:#000099;
+}
+</style>
+    </head>
+    <body>
+        <h1>Check for Palindrome:</h1>
+        <label>Enter String:</label>
+        <input type="text" name="word" id="word" value=""></input><br><br>
+        <button onclick="return pal()">Check</button>
+        <p id="check"></p>
+        
+        <br><br>
+        <h1> Check for Anagram:</h1>
+        <label>Enter String 1:</label>
+        <input type="text" name="str1" id="str1" value=""></input><br><br>
+        <label>Enter String 2:</label>
+        <input type="text" name="str2" id="str2" value=""></input><br><br>
+        <button onclick="return ana()">Check</button>
+        <p id="check1"></p>
+        
+
+
+    </body>
+    
+</html>

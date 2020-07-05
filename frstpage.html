@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Calculator</title>
+        <script src="javascript.js"></script>
+        <style>
+          h2{
+            color: #cc0000;
+            font-style: italic;
+            margin-left: 50px;
+          }
+          input[type=text]{
+           height: 20px;
+           }
+          body{
+            margin-left: 150px;
+
+          }
+          input{
+            background-color: #80ccff;
+          }
+         
+
+        </style>
+    </head>
+    <body>
+    
+     
+        <form name="myform" id="id1">
+           <h2>Basic Calculator</h2>
+            Value 1: <input type="text" name="num1" id="id2" placeholder="Enter number"><br><br>
+            Value 2: <input type="text" name="num2" placeholder="Enter number"><br><br>
+            
+            Operation : 
+            <input type="button"  value="Add"  onclick="return add()">
+            <input type="button" value="Subtract" onclick="return Sub()">
+            <input type="button"  value="Multiply" onclick="return Mul()">
+            <input type="button"  value="Divide" onclick="return Divide()">
+            <input type="button"  value="Percentage" onclick="return per()">
+            <input type="button"  value="Square root" onclick="return Square_Root()">
+            <input type="button"  value="Absolute" onclick="return Abso()"><br><br> 
+            Result : <input type="text" name="result "> 
+        </form>
+    </body>
+</html>
